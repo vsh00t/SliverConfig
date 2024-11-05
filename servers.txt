@@ -1,0 +1,10 @@
+Apache/2.4.62
+Nginx/1.25.4
+LiteSpeed/6.1.2
+Microsoft-IIS/10.0
+Caddy/2.8.4
+Tomcat/10.1.15
+OpenLiteSpeed/1.7.16
+lighttpd/1.4.76
+Node.js/18.17.0
+Jetty/11.0.15
