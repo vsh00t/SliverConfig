@@ -1,0 +1,103 @@
+{
+    "implant_config": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/110.0",
+        "url_parameters": null,
+        "headers": null,
+        "max_files": 3,
+        "min_files": 1,
+        "max_paths": 3,
+        "min_paths": 1,
+        "stager_file_ext": ".css",
+        "poll_file_ext": ".aspx",
+        "stager_files": [
+            "analysis",
+            "segment",
+            "d2fc1b6a458f",
+            "logo",
+            "system"
+        ],
+        "poll_files": [
+            "homepage",
+            "tsp",
+            "active",
+            "user"
+        ],
+        "poll_paths": [
+            "es-ec",
+            "home",
+            "now",
+            "display",
+            "market",
+            "shop"
+        ],
+        "start_session_file_ext": ".html",
+        "session_file_ext": ".jsp",
+        "session_files": [
+            "start",
+            "session",
+            "sign",
+            "display",
+            "gateway",
+            "main",
+            "control",
+            "enroll",
+            "signup"
+        ],
+        "session_paths": [
+            "transfer",
+            "retrieve",
+            "download",
+            "procedures",
+            "api",
+            "version",
+            "authorize",
+            "auth2",
+            "authcallback",
+            "gateway"
+        ],
+        "close_file_ext": ".jpeg",
+        "close_files": [
+            "image",
+            "profile",
+            "icon",
+            "demo",
+            "illustration"
+        ],
+        "close_paths": [
+            "static",
+            "resources",
+            "images",
+            "symbols",
+            "picture",
+            "emblem",
+            "graphic"
+        ]
+    },
+    "server_config": {
+        "random_version_headers": false,
+        "headers": [
+            {
+                "name": "Cache-Control",
+                "value": "no-store, no-cache, must-revalidate",
+                "probability": 100
+            },
+            {
+                "name": "Server",
+                "value": "Microsoft-IIS/8.5",
+                "probability": 100
+            },
+            {
+                "name": "X-Powered-By",
+                "value": "ASP.NET",
+                "probability": 100
+            }
+        ],
+        "cookies": [
+            "SESSIONTOKEN",
+            "PROFILEID",
+            "WEBSESSIONID",
+            "ASP.NET_SessionToken",
+            "session-token"
+        ]
+    }
+}
